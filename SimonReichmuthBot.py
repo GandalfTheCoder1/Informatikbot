@@ -27,21 +27,17 @@ async def on_message(message):
                 await Client.send_message(message.channel,"!reichmuth - *Es Bild vom Kachi* \n!widmer - *kachi nummer2* \n!makedictionary - *so macht mer es dictionary* \n!letztiufgab - *ufgab ide letzte stund bzw husufgabe*")
         elif message.content == "!makedictionary":
                 await Client.send_message(message.channel,'thisdict =   \n{"brand": "Ford", \n"model": "Mustang",\n"year": 1964}')
+        elif message.content == "!dictionaryhelp":
+                await Client.send_message(message.channel,'im dictionary gibt es für jedes sogenannte "item" 2 Elemente: der key und der value. Beide Elemente können mithilfe verschiedener commands dargestellt werden. Für die Keys verwendet man "example.keys()" und für die values "example.values". Man kann sie in einer Liste darstellen mit "x = list(example.keys())" oder mit einer for Schleife verbinden.')
         elif message.content == "!widmer" or message.content == "!thwidmer":
                 randompic = random.randint(1,2)
                 if randompic == 1:
                         await Client.send_message(message.channel,"https://i.imgur.com/6UU6eoi.jpg")
                 else:
                         await Client.send_message(message.channel,"https://i.imgur.com/ngWy3ix.jpg")
-        elif message.content == "!letztiufgab":
-                        await Client.send_message(message.channel,'def char_frequency(str1):\n'
-                                                                  '        dict = {}\n'
-                                                                  '        for n in str1:\n'
-                                                                  '               keys = dict.keys()\n'
-                                                                  '               if n in keys: \n'
-                                                                  '                       dict[n] += 1\n'
-                                                                  '               else:\n'
-                                                                  '                        dict[n] = 1\n'
-                                                                  '       return dict\n'
-                                                                  "print(char_frequency('google.com')) #das google.com kann beliebig angepasst werden durch anderen Text")
+        elif message.content == "!letzti ufgab":
+                        await Client.send_message(message.channel,'summe = 0'
+                                                                  'for x in dishes.values():'
+                                                                  '     summe += x'
+                                                                  '     print(summe)'
 Client.run("NTQ1OTE1MDI1Nzg1ODgwNjEw.D0gm0g.7sL5EmUO3eE35PJad-2LuW7gpgY")
