@@ -39,5 +39,5 @@ async def on_message(message):
                         await Client.send_message(message.channel,'summe = 0'
                                                                   'for x in dishes.values():'
                                                                   '     summe += x'
-                                                                  '     print(summe)'
+                                                                  '     print(summe)')
 Client.run("NTQ1OTE1MDI1Nzg1ODgwNjEw.D0gm0g.7sL5EmUO3eE35PJad-2LuW7gpgY")
