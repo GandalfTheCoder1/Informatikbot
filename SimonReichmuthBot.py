@@ -36,8 +36,8 @@ async def on_message(message):
                 else:
                         await Client.send_message(message.channel,"https://i.imgur.com/ngWy3ix.jpg")
         elif message.content == "!letzti ufgab":
-                        await Client.send_message(message.channel,'summe = 0'
-                                                                  'for x in dishes.values():'
-                                                                  '     summe += x'
-                                                                  '     print(summe)')
+                        await Client.send_message(message.channel,'summe = 0\n'
+                                                                  'for x in dishes.values():\n'
+                                                                  '     summe += x\n'
+                                                                  '     print(summe)\n')
 Client.run("NTQ1OTE1MDI1Nzg1ODgwNjEw.D0gm0g.7sL5EmUO3eE35PJad-2LuW7gpgY")
