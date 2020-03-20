@@ -2935,4 +2935,4 @@ async def on_message(message):
 
 
 
-Client.run("NjAwMjc5MDQ4MTkwNjg5MzAw.XVT-rQ.BFnvzy2Zgkq9cAxaMnODECMmsa4")
+Client.run("aVg4OeImmULTm1SjICIkWPR0UBqmfNMK")
